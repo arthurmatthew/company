@@ -37,7 +37,7 @@
 			`,
 			image: '',
 			rank: 3,
-			socials: [{ site: 'github', link: 'https://www.github.com/' }]
+			socials: [{ site: 'github', link: 'https://www.github.com/sebas-101' }]
 		}
 	];
 </script>
