@@ -21,8 +21,8 @@ Spotify Detective is a tool that helps you find the accounts of people you may k
 ### Framework 💻
 - [SvelteKit](https://kit.svelte.dev/)
 ### Frontend 👁
-- [Svelte](https://www.svelte.dev/)
-- [TailwindCSS](www.tailwindcss.com)
+- [Svelte](https://svelte.dev/)
+- [TailwindCSS](https://www.tailwindcss.com)
 
 ## Developing
 
