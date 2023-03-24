@@ -1,6 +1,7 @@
 <script lang="typescript">
 	import Senior from '../assets/senior-developer.jpg';
 	import Dev1 from '../assets/developer.jpg';
+	let Dev2 = "https://imgs.search.brave.com/3QnF-yQCooInO1j0vjg51vbDjn8DLhA6_CcDRaaEv2Q/rs:fit:1200:1024:1/g:ce/aHR0cHM6Ly80LmJw/LmJsb2dzcG90LmNv/bS8tckIwaEdldlRq/R00vVVQ2ZkNmaTJw/YUkvQUFBQUFBQUFC/UHcvLWNnZ2dqOVJo/amcvczE2MDAvVGhl/K1Rlcm1pbmF0b3Ir/MS5qcGc";
 	const team = [
 		{
 			name: 'Matthew',
@@ -30,12 +31,11 @@
 		},
 		{
 			name: 'Sebastien',
-			position: 'Robot',
+			position: 'Junior Dev',
 			desc: `
-			I am Sebastien, a robot. I was created to assist with various tasks and to learn and adapt to new situations. 
-			I am constantly learning and evolving to better serve my purpose.
+			I am Sebastien, A junior Developer learnging the tools of web-development.
 			`,
-			image: '',
+			image: 'Dev2',
 			rank: 3,
 			socials: [{ site: 'github', link: 'https://www.github.com/sebas101-1' }]
 		}
