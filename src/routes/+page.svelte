@@ -1,7 +1,8 @@
 <script lang="typescript">
 	import Senior from '../assets/senior-developer.jpg';
 	import Dev1 from '../assets/developer.jpg';
-	let Dev2 = "https://imgs.search.brave.com/3QnF-yQCooInO1j0vjg51vbDjn8DLhA6_CcDRaaEv2Q/rs:fit:1200:1024:1/g:ce/aHR0cHM6Ly80LmJw/LmJsb2dzcG90LmNv/bS8tckIwaEdldlRq/R00vVVQ2ZkNmaTJw/YUkvQUFBQUFBQUFC/UHcvLWNnZ2dqOVJo/amcvczE2MDAvVGhl/K1Rlcm1pbmF0b3Ir/MS5qcGc";
+	let Dev2 =
+		'https://imgs.search.brave.com/3QnF-yQCooInO1j0vjg51vbDjn8DLhA6_CcDRaaEv2Q/rs:fit:1200:1024:1/g:ce/aHR0cHM6Ly80LmJw/LmJsb2dzcG90LmNv/bS8tckIwaEdldlRq/R00vVVQ2ZkNmaTJw/YUkvQUFBQUFBQUFC/UHcvLWNnZ2dqOVJo/amcvczE2MDAvVGhl/K1Rlcm1pbmF0b3Ir/MS5qcGc';
 	const team = [
 		{
 			name: 'Matthew',
