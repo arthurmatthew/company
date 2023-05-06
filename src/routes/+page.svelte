@@ -104,16 +104,16 @@
 		{/each}
 	</article>
 </section>
-<div id="hero-gradient" class="px">
-	<div id="hero-gradient" class=" border-white border-2 rounded-lg">
-		<h1 class="head text-center font text-white">About Us</h1>
-		<br/>
-		<p class="w-9/12 mx-auto text-white text-center lg:text-left lg:text-2xl ">	
+<div id="background-black" class="py-6">
+	<div id="background-black" class="ml-[8.2%] border-white border-2 rounded-lg w-8/12">
+		<h1 id="widen" class=" mx-auto rounded-xl w-[8rem] m-5 border-4 text-center text-white">About Us</h1>
+		<div class="h-[1px] mb-8 ml-[50px] bg-gradient-to-r from-blue-800 to-transparent opacity-25" />
+		<p class="  mx-[50px] mb-2 text-white lg:text-2xl ">	
 			Looking for a web development team that can make your online dreams a reality? Look no further than our Seattle-based web development squad!
 			Our team of skilled developers is passionate about crafting beautiful, functional websites that help our clients stand out in the digital world. Whether you're looking for a stunning e-commerce platform, a sleek and modern portfolio site, or anything in between, we've got you covered.
 			But we're more than just a group of code wizards - we're also a fun and friendly bunch who loves nothing more than helping our clients succeed. We'll work closely with you to understand your goals and vision, and we'll guide you through the entire development process with expert advice and support. And once your site is live, we'll still be there to help you make updates and improvements as needed.
 		</p>
-
+		<div class="h-[1px] mb-8 ml-[50px] bg-gradient-to-r from-blue-800 to-transparent opacity-25" />
 	</div>
 </div>
 <style>
@@ -129,7 +129,16 @@
 		background-repeat: repeat-x;
 		animation: scroll 6s ease-in-out infinite;
 	}
-
+	#widen{
+		width: 8rem;
+		transition: all 0.5s ease-in-out;
+	}
+	#widen:hover{
+		width: 10rem;
+	}
+	#background-black{
+		background: rgb(2,0,36);
+	}
 	#radial-background {
 		background: radial-gradient(circle, rgba(14, 0, 255, 1) 0%, rgb(119, 112, 255) 100%);
 		background-size: 180% 180%;
