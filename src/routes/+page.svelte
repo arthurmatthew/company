@@ -33,7 +33,7 @@
 			name: 'Sebastien',
 			position: 'Junior Dev',
 			desc: `
-			I am Sebastien, A junior Developer learnging the tools of web-development.
+			I am Sebastien, a junior developer learning the tools of web-development.
 			`,
 			image: 'Dev2',
 			rank: 3,
@@ -58,7 +58,7 @@
 	<div class="flex gap-2 duration-75">
 		<a href="#team"
 			><button
-				class="rounded-full border-2 border-blue-700 bg-blue-700 px-9 py-1 duration-75 hover:border-blue-800 hover:bg-blue-800 hover:px-10"
+				class="rounded-full border-2 border-blue-700 bg-blue-700 px-9 py-1 duration-75 transition-all hover:border-blue-800 hover:bg-blue-800 hover:px-10"
 				>Learn more</button
 			></a
 		>
@@ -104,7 +104,18 @@
 		{/each}
 	</article>
 </section>
+<div id="hero-gradient" class="px">
+	<div id="hero-gradient" class=" border-white border-2 rounded-lg">
+		<h1 class="head text-center font text-white">About Us</h1>
+		<br/>
+		<p class="w-9/12 mx-auto text-white text-center lg:text-left lg:text-2xl ">	
+			Looking for a web development team that can make your online dreams a reality? Look no further than our Seattle-based web development squad!
+			Our team of skilled developers is passionate about crafting beautiful, functional websites that help our clients stand out in the digital world. Whether you're looking for a stunning e-commerce platform, a sleek and modern portfolio site, or anything in between, we've got you covered.
+			But we're more than just a group of code wizards - we're also a fun and friendly bunch who loves nothing more than helping our clients succeed. We'll work closely with you to understand your goals and vision, and we'll guide you through the entire development process with expert advice and support. And once your site is live, we'll still be there to help you make updates and improvements as needed.
+		</p>
 
+	</div>
+</div>
 <style>
 	#hero-gradient {
 		background: rgb(2, 0, 36);
