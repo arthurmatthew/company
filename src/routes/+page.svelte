@@ -104,9 +104,9 @@
 		{/each}
 	</article>
 </section>
-<div id="background-black" class="py-6">
-	<div id="background-black" class="ml-[8.2%] border-white border-2 rounded-lg w-8/12">
-		<h1 id="widen" class=" mx-auto rounded-xl w-[8rem] m-5 border-4 text-center text-white">About Us</h1>
+<div id="background-black" class="py-6 xl:px-64">
+	<h1 id="widen" class="text-center p-4 mb-8 text-5xl lg:text-left rounded-xl border-2 text-white">About Us</h1>
+	<div id="background-black" class=" border-white border-2 rounded-lg w-8/12">
 		<div class="h-[1px] mb-8 ml-[50px] bg-gradient-to-r from-blue-800 to-transparent opacity-25" />
 		<p class="  mx-[50px] mb-2 text-white lg:text-2xl ">	
 			Looking for a web development team that can make your online dreams a reality? Look no further than our Seattle-based web development squad!
@@ -129,15 +129,39 @@
 		background-repeat: repeat-x;
 		animation: scroll 6s ease-in-out infinite;
 	}
+
 	#widen{
-		width: 8rem;
-		transition: all 0.5s ease-in-out;
+		width: 16rem;
+		transition: all 0.2s ease-out;
 	}
 	#widen:hover{
-		width: 10rem;
+		width: 20rem;
+		cursor: pointer;
+		background: rgb(2, 0, 36);
+		background: linear-gradient(
+			90deg,
+			rgba(2, 0, 36, 1) 35%,
+			rgb(3, 0, 70) 50%,
+			rgba(2, 0, 36, 1) 65%
+		);
+		background-size: 300% 300%;
+		background-repeat: repeat-x;
+		animation: scroll 6s ease-in-out infinite;
 	}
 	#background-black{
 		background: rgb(2,0,36);
+	}
+	#background-black:hover{
+		background: rgb(2, 0, 36);
+		background: linear-gradient(
+			90deg,
+			rgba(2, 0, 36, 1) 35%,
+			rgb(3, 0, 70) 50%,
+			rgba(2, 0, 36, 1) 65%
+		);
+		background-size: 300% 300%;
+		background-repeat: repeat-x;
+		animation: scroll 6s ease-in-out infinite;
 	}
 	#radial-background {
 		background: radial-gradient(circle, rgba(14, 0, 255, 1) 0%, rgb(119, 112, 255) 100%);
