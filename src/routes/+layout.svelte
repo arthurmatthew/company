@@ -10,5 +10,5 @@
 </header>
 <slot />
 <footer class="flex items-center justify-center bg-blue-950 text-white">
-	<p class="py-16">Made with <i class="bi-suit-heart-fill text-pink-500" /></p>
+	<p class="py-16">Made with <i class="bi-suit-heart-fill px-2 text-pink-500" /> in Seattle</p>
 </footer>
