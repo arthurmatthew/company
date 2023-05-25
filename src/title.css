@@ -1,3 +1,4 @@
+/* Styles for the title */
 .title {
   text-align: center;
   font-size: 200px;
@@ -7,31 +8,64 @@
   text-shadow: 10px 10px black;
   background-image: linear-gradient(90deg, black 0%, white 0%);
   background-position: 0% 0%;
-  background-size: 200%; /* Added property */
+  background-size: 200%; /* Added property to control the size of the gradient */
   transition: all 1s ease-in;
 }
+
+/* Animation for the title on hover */
 @keyframes anim {
-  0%{
+  0% {
     background-position: 10% 0%;
     background-image: linear-gradient(90deg, black 10%, white 0%);
   }
-  
 }
+
+/* Styles for the title on hover */
 .title:hover {
   animation: anim 1s;
   background-image: linear-gradient(90deg, black 50%, white 0%);
   color: black;
   text-shadow: 10px 10px white;
   background-position: -200% 0%;
+  cursor: pointer;
 }
 
+/* Styles for the title when not hovered */
 .title:not(:hover) {
   animation: back 1s forwards;
   transition: color text-shadow 0.3s;
 }
+
+/* Animation for transitioning back to the original state */
 @keyframes back {
-  0%{
+  0% {
     background-image: linear-gradient(90deg, black 50%, white 0%);
     background-position: -200% 0%;
+  }
+}
+
+/* Styles for the slogan */
+.slogan {
+  text-align: center;
+  font-size: 5rem;
+}
+
+/* Styles for the edge class */
+.edge {
+  background-image: linear-gradient(135deg, #3a68a0, #cca700);
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;
+  background-size: 400%; /* Added property to control the size of the gradient */
+  animation: scroll 3s infinite alternate;
+}
+
+/* Animation for scrolling the gradient */
+@keyframes scroll {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
   }
 }
