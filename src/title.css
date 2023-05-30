@@ -33,7 +33,7 @@
 /* Styles for the title when not hovered */
 .title:not(:hover) {
   animation: back 1s forwards;
-  transition: color text-shadow 0.3s;
+  transition: color 0.3s, text-shadow 0.3s;
 }
 
 /* Animation for transitioning back to the original state */
@@ -52,12 +52,12 @@
 
 /* Styles for the edge class */
 .edge {
-  background-image: linear-gradient(135deg, #3a68a0, #cca700);
+  background-image: linear-gradient(135deg, #3a68a0, #cca700, rgb(136, 35, 122));
   background-clip: text;
   -webkit-background-clip: text; /* For Safari */
   color: transparent;
   background-size: 400%; /* Added property to control the size of the gradient */
-  animation: scroll 3s infinite alternate;
+  animation: scroll 7s infinite alternate;
 }
 
 /* Animation for scrolling the gradient */
@@ -68,4 +68,68 @@
   100% {
     background-position: right;
   }
+}
+
+.desc {
+  margin: 10% 0% 0% 10%;
+  width: 900px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  background-size: 200%;
+  background-position: -100% 100%;
+  height: 35rem;
+  transition: all 0.3s;
+  box-shadow: 40px 40px;
+}
+
+.txt {
+  text-align: center;
+  color: black;
+  font-size: 2rem;
+  padding-top: 70px;
+  transition: all 1s;
+}
+
+.center {
+  text-align: center;
+}
+.peopleS{
+  z-index: 5;
+  margin: 0% 0% 0% 40%;
+  transform: translate(0, -10%);
+  width: 900px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  background-size: 200%;
+  background-position: -100% 100%;
+  transition:all 0.3s;
+  box-shadow: 40px 40px;
+  box-shadow: 40px 40px;
+
+}
+.react{
+  width: 2rem;
+  height: 2rem;
+  transition: 0.3s all;
+}
+.react:hover{
+  animation: rotate 1s infinite;
+  cursor: pointer;
+}
+@keyframes rotate {
+  0%{
+    transform:rotate(0deg);
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+}
+.discord{
+  display: inline;
+  border-radius: 8px;
+}
+.discord:hover{
+  background-color: rgba(0, 0, 0, 0.192);
 }
