@@ -86,7 +86,7 @@
 
 .desc:hover {
   transform: scale(1.1);
-  box-shadow: 50px 50px;
+  box-shadow: 70px 70px;
 }
 
 .txt {
@@ -109,8 +109,18 @@
   background-size: 200%;
   background-position: -100% 100%;
   transition: all 0.3s;
+  box-shadow: 40px 40px;
+  padding: 20px;
 
 
+}
+.S:hover{
+  transform: scale(1.05) translate(0, -10%);
+  box-shadow: 52px 52px;
+}
+.M:hover{
+  transform: scale(1.2);
+  box-shadow: 70px 70px;
 }
 .shadow{
   width: 50px;
@@ -119,13 +129,14 @@
 }
 .S{
   z-index: 5;
-  margin: 0 10% 100px 40%;
+  margin: 0 10% 0 40%;
   transform: translate(0, -10%);
-  box-shadow: 40px 40px;
+  
 }
 .M{
+  margin-left: 10%;
   z-index: 4;
-  transform: translate(20%, 850%);
+  box-shadow: 40px 40px;
 }
 .react {
   width: 2rem;
