@@ -3,7 +3,7 @@
   text-align: center;
   font-size: 200px;
   width: 100%;
-  margin: 200px 0px;
+  margin: 200px 0;
   color: white;
   text-shadow: 10px 10px black;
   background-image: linear-gradient(90deg, black 0%, white 0%);
@@ -63,15 +63,15 @@
 /* Animation for scrolling the gradient */
 @keyframes scroll {
   0% {
-    background-position: left;
+    background-position: 0% 0%;
   }
   100% {
-    background-position: right;
+    background-position: 100% 100%;
   }
 }
 
 .desc {
-  margin: 10% 0% 0% 10%;
+  margin: 10% 0 0 10%;
   width: 900px;
   border: 2px solid black;
   border-radius: 20px;
@@ -81,6 +81,12 @@
   height: 35rem;
   transition: all 0.3s;
   box-shadow: 40px 40px;
+  z-index: 1;
+}
+
+.desc:hover {
+  transform: scale(1.1);
+  box-shadow: 50px 50px;
 }
 
 .txt {
@@ -94,42 +100,100 @@
 .center {
   text-align: center;
 }
-.peopleS{
-  z-index: 5;
-  margin: 0% 0% 0% 40%;
-  transform: translate(0, -10%);
+
+.people{
   width: 900px;
   border: 2px solid black;
   border-radius: 20px;
   background-color: white;
   background-size: 200%;
   background-position: -100% 100%;
-  transition:all 0.3s;
-  box-shadow: 40px 40px;
-  box-shadow: 40px 40px;
+  transition: all 0.3s;
+
 
 }
-.react{
+.shadow{
+  width: 50px;
+  height: 50px;
+  color: black;
+}
+.S{
+  z-index: 5;
+  margin: 0 10% 100px 40%;
+  transform: translate(0, -10%);
+  box-shadow: 40px 40px;
+}
+.M{
+  z-index: 4;
+  transform: translate(20%, 850%);
+}
+.react {
   width: 2rem;
   height: 2rem;
-  transition: 0.3s all;
+  transition: all 0.3s;
 }
-.react:hover{
-  animation: rotate 1s infinite;
+
+.one:hover {
+  animation: rotate 1s infinite linear;
   cursor: pointer;
 }
+
+.two:hover {
+  animation: bounce 1s infinite ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.5) translate(0, 10px);
+  }
+  100% {
+    transform: scale(1) translate(0, 0px);
+  }
+}
+
 @keyframes rotate {
-  0%{
-    transform:rotate(0deg);
+  0% {
+    transform: rotate(0deg);
   }
-  100%{
-    transform:rotate(360deg);
+  100% {
+    transform: rotate(360deg);
   }
 }
-.discord{
-  display: inline;
+
+.discord {
+  margin-top: 1rem;
+  width: 10rem;
+  display: inline-block;
   border-radius: 8px;
+  padding: 2px;
+  background-color: rgb(35,36,40);
+  overflow-x: hidden;
+  height: 2.5rem;
 }
-.discord:hover{
+
+.discord:hover {
   background-color: rgba(0, 0, 0, 0.192);
+  cursor:pointer;
+
+}
+.distxt{
+  font-size: 0.75rem;
+  color: rgb(181,181,179);
+  display: inline-block;
+}
+.prof{
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+}
+.inline{
+  display: inline;
+}
+.name{
+  display: inline;
+  position: relative;
 }
