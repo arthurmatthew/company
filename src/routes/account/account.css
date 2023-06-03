@@ -1,0 +1,13 @@
+#account {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 10rem;
+  gap: 0.5em;
+}
+
+#account button {
+  border-radius: 10px;
+  flex-grow: 0;
+  padding: 1rem;
+  font-size: 2em;
+}

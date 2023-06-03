@@ -1,7 +1,12 @@
 import "./account.css";
 
 const Account = () => {
-  return <h1>Hello Account</h1>;
+  return (
+    <section id="account">
+      <button>Payment Portal</button>
+      <button>Contact Us</button>
+    </section>
+  );
 };
 
 export default Account;
