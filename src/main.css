@@ -1,7 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Inter+Tight");
+@import url("https://fonts.googleapis.com/css?family=Inter+Tight:200,400,900");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 :root {
-  /* Add color scheme */
+  --celeste: #bdede0ff;
+  --mint-green: #bbdbd1ff;
+  --pigment-green: #139a43ff;
+  --midnight-green: #004346ff;
+  --prussian-blue: #172a3aff;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--prussian-blue);
 }
 
 * {
@@ -12,4 +22,9 @@
   margin: 0;
   padding: 0;
   outline: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
