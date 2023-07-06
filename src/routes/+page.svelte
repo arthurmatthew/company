@@ -4,11 +4,16 @@
 
 <main class="mx-auto max-w-5xl">
 	<section class="my-40 flex flex-col items-center justify-center">
-		<h1 class="text-4xl font-semibold">Ballard Web Dev. A web managment & creation service.</h1>
+		<h1 class="text-4xl font-semibold">
+			Ballard Web Dev. A <span class="shadow-[inset_0_-0.4em_0] shadow-purple-300"
+				>web managment</span
+			>
+			& <span class="shadow-[inset_0_-0.4em_0] shadow-green-400">creation service</span>.
+		</h1>
 		<div class="mt-5 flex gap-1">
-			<a class="rounded-md border-2 border-slate-200 bg-slate-100 p-4 text-center">Contact Us</a>
-			<a class="rounded-md border-2 border-slate-200 bg-slate-100 p-4 text-center">Our Portfolio</a>
-			<a class="rounded-md border-2 border-slate-200 bg-slate-100 p-4 text-center">Pricing</a>
+			<a class="rounded-bl-md border-2 border-slate-200 p-4 text-center">Contact Us</a>
+			<a class="border-2 border-slate-200 p-4 text-center">Our Portfolio</a>
+			<a class="rounded-br-md border-2 border-slate-200 p-4 text-center">Pricing</a>
 		</div>
 	</section>
 	<section class="my-10 border-2 border-slate-200 p-10">
